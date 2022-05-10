@@ -116,7 +116,7 @@ setTimeout(() => {
       <div className="hi-div hi-full">
         <h1 className="hi animation" ref={hElement1}>H</h1>
         {/* <Animator animation={Move(0,0,-2000,250)}> */}
-          <h1 className="hi2 animation header-title" ref={hiElement2}>Hi</h1>
+          <h1 className="hi2 animation header-title" id='about-scroll' ref={hiElement2}>Hi</h1>
           {/* </Animator> */}
         
       </div>

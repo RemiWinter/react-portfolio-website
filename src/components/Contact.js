@@ -5,7 +5,7 @@ import {FaGithub, FaLinkedin} from 'react-icons/fa'
 const Contact = () => {
   return (
     <section id="contact1" className="contact-section">
-  <div className="container">
+  <div className="container" id='contact-scroll'>
     <div className="contact-content">
       <div className="contact-email contact-item">
         <h1 className="c-email">Email:</h1>

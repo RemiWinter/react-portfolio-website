@@ -31,22 +31,13 @@ const [projData, setData] = useState([
     id: 1
   },
   {
-    title: 'Loruki',
-    desc: 'Responsive cloud hosting site',
-    imgSrc: 'img/Loruki_img.png',
-    vidSrc: 'videos/Loruki_vid.mp4',
-    pageLink: 'https://remwinter.github.io/RemWinter/loruki-website/',
-    sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/loruki-website',
+    title: 'React Portfolio Website',
+    desc: 'Portfolio website converted to react from vanilla JS, CSS & HTML',
+    imgSrc: 'img/portfolio.png',
+    vidSrc: 'videos/Netflix_vid.mov',
+    pageLink: 'https://remwinter.github.io/react-portfolio-website/',
+    sourceCode: 'https://github.com/RemWinter/react-portfolio-website',
     id: 2
-  },
-  {
-    title: 'Frontend Bootcamp',
-    desc: 'Bootstrap style website built from scratch using vanilla CSS',
-    imgSrc: 'img/Frontend_img.png',
-    vidSrc: 'videos/Frontend_vid.mp4',
-    pageLink: 'https://remwinter.github.io/RemWinter/Bootstrap-from-scratch/',
-    sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/Bootstrap-from-scratch',
-    id: 3
   },
   {
     title: 'Netflix Landing page Clone',
@@ -55,7 +46,34 @@ const [projData, setData] = useState([
     vidSrc: 'videos/Netflix_vid.mov',
     pageLink: 'https://remwinter.github.io/RemWinter/NETFLIX-WEBPAGE-CLONE/',
     sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/NETFLIX-WEBPAGE-CLONE',
+    id: 3
+  },
+  {
+    title: 'React Task tracker',
+    desc: 'Task tracker built in react',
+    imgSrc: 'img/task-tracker.png',
+    vidSrc: 'videos/Netflix_vid.mov',
+    pageLink: 'https://remwinter.github.io/react-task-tracker/',
+    sourceCode: 'https://github.com/RemWinter/react-task-tracker',
     id: 4
+  },
+  {
+    title: 'Loruki',
+    desc: 'Responsive cloud hosting site',
+    imgSrc: 'img/Loruki_img.png',
+    vidSrc: 'videos/Loruki_vid.mp4',
+    pageLink: 'https://remwinter.github.io/RemWinter/loruki-website/',
+    sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/loruki-website',
+    id: 5
+  },
+  {
+    title: 'Frontend Bootcamp',
+    desc: 'Bootstrap style website built from scratch using vanilla CSS',
+    imgSrc: 'img/Frontend_img.png',
+    vidSrc: 'videos/Frontend_vid.mp4',
+    pageLink: 'https://remwinter.github.io/RemWinter/Bootstrap-from-scratch/',
+    sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/Bootstrap-from-scratch',
+    id: 6
   },
 ])
 

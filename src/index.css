@@ -601,6 +601,14 @@ video {
   justify-self: start;
   transform: scale(0.8) rotate(20deg) translateX(20px);
 }
+.item-5 {
+  justify-self: end;
+  transform: scale(0.8) rotate(-20deg) translateX(-20px);
+}
+.item-6 {
+  justify-self: start;
+  transform: scale(0.8) rotate(20deg) translateX(20px);
+}
 
 .grid-items img {
   /* display: none; */

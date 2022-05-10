@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types';
+import { useRef } from 'react';
 import NavItems from './NavItems';
 
 const Navbar = ({title, navList}) => {
+
+
   return (
     <nav>
     <div class="container">

@@ -68,6 +68,26 @@ const Projects = ({projData}) => {
       duration: 0.5
     })
 
+    let tl5 = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.grid-item',
+        start: 1050,
+        end: 1300,
+        markers: false
+      }
+    })
+
+    tl5.to('.item-5', {
+      opacity:1,
+      transform: 'scale(1) rotate(0)',
+      duration: 0.5
+    })
+    .to('.item-6', {
+      opacity:1,
+      transform: 'scale(1) rotate(0)',
+      duration: 0.5
+    })
+
   }, 10000);
 
   // const section = useRef();
@@ -89,7 +109,7 @@ const Projects = ({projData}) => {
     <section id="proj" className="projects-section">
   <div className="container">
     <div className="projects-content">
-      <h1 className="proj-h1">Projects</h1>
+      <h1 className="proj-h1" id='projects-scroll'>Projects</h1>
       <div className="grid grid-col-2">
         <h1 className="projects-header">Projects</h1>
 

@@ -24,7 +24,7 @@ const NavItems = ({navList, title}) => {
           <div className="nav-right">
           {navList.map((navItem) => (
               <li className={navItem.toLowerCase()}>
-                <a className={`${navItem.toLowerCase()}-link`} href="#">{navItem}</a>
+                <a className={`${navItem.toLowerCase()}-link`} href={`#${navItem.toLowerCase()}-scroll`}>{navItem}</a>
               </li>
             ))}
           </div>
