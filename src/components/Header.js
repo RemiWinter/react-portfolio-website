@@ -141,7 +141,7 @@ setTimeout(() => {
       </div>
       {/* <Animator animation={Move(0,0,0,500)}> */}
       <div className="img-div">
-      <img className="coding-gif" src="img/coding_giphy.gif" alt="" height="360" width="480"/>
+      <img className="coding-gif" src="https://raw.githubusercontent.com/RemWinter/react-portfolio-website/main/public/img/coding_giphy.gif" alt="" height="360" width="480"/>
       <h2 className="web-dev animation" ref={dev}>Web Developer</h2>
       <h2 className="programmer animation" ref={programmer}>Programmer</h2>
       <h2 className="designer animation" ref={designer}>Designer</h2>
