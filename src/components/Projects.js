@@ -71,8 +71,8 @@ const Projects = ({projData}) => {
     let tl5 = gsap.timeline({
       scrollTrigger: {
         trigger: '.grid-item',
-        start: 1050,
-        end: 1300,
+        start: 1650,
+        end: 1900,
         markers: false
       }
     })
