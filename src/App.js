@@ -31,12 +31,12 @@ const [projData, setData] = useState([
     id: 1
   },
   {
-    title: 'React Portfolio Website',
-    desc: 'Portfolio website converted to react from vanilla JS, CSS & HTML',
-    imgSrc: 'img/portfolio.png',
-    vidSrc: 'videos/Netflix_vid.mov',
-    pageLink: 'https://remwinter.github.io/react-portfolio-website/',
-    sourceCode: 'https://github.com/RemWinter/react-portfolio-website',
+    title: 'React Memory Game',
+    desc: 'Memory game built in React',
+    imgSrc: 'img/game-preview.png',
+    vidSrc: '',
+    pageLink: 'https://remwinter.github.io/memory-game/',
+    sourceCode: 'https://github.com/RemWinter/memory-game',
     id: 2
   },
   {
@@ -58,23 +58,32 @@ const [projData, setData] = useState([
     id: 4
   },
   {
+    title: 'React Portfolio Website',
+    desc: 'Portfolio website converted to react from vanilla JS, CSS & HTML',
+    imgSrc: 'img/portfolio.png',
+    vidSrc: 'videos/Netflix_vid.mov',
+    pageLink: 'https://remwinter.github.io/react-portfolio-website/',
+    sourceCode: 'https://github.com/RemWinter/react-portfolio-website',
+    id: 5
+  },
+  {
     title: 'Loruki',
     desc: 'Responsive cloud hosting site',
     imgSrc: 'img/Loruki_img.png',
     vidSrc: 'videos/Loruki_vid.mp4',
     pageLink: 'https://remwinter.github.io/RemWinter/loruki-website/',
     sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/loruki-website',
-    id: 5
-  },
-  {
-    title: 'Frontend Bootcamp',
-    desc: 'Bootstrap style website built from scratch using vanilla CSS',
-    imgSrc: 'img/Frontend_img.png',
-    vidSrc: 'videos/Frontend_vid.mp4',
-    pageLink: 'https://remwinter.github.io/RemWinter/Bootstrap-from-scratch/',
-    sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/Bootstrap-from-scratch',
     id: 6
   },
+  // {
+  //   title: 'Frontend Bootcamp',
+  //   desc: 'Bootstrap style website built from scratch using vanilla CSS',
+  //   imgSrc: 'img/Frontend_img.png',
+  //   vidSrc: 'videos/Frontend_vid.mp4',
+  //   pageLink: 'https://remwinter.github.io/RemWinter/Bootstrap-from-scratch/',
+  //   sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/Bootstrap-from-scratch',
+  //   id: 6
+  // },
 ])
 
 const app = useRef();
