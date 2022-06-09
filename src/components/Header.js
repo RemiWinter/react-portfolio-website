@@ -150,7 +150,7 @@ setTimeout(() => {
       
       <div className="about-me-div">
       {/* <Animator animation={batch(Move(0,0,0,3000),Zoom(10,0))}> */}
-        <p className="about-me" ref={about}>I'm a self-taught Web Developer based in Birmingham UK. My primary skills reside in all things front-end, specifically <span>React</span>, <span>CSS</span>, <span>HTML</span> & <span>vanilla JavaScript</span>. I've also got experience using <span>C#</span>, <span>JSON</span>, <span>jQuery</span> and <span>Bootstrap</span>. My passion for coding comes from the desire to create UI's and UX's that capture's the end-user's attention, while also being simple and intuitive. I first started coding in college during my spare time. However, I subsequently stopped to persue a BSc Mathematics degree and returned to coding again in 2020.</p>
+        <p className="about-me" ref={about}>I'm a self-taught Web Developer based in Birmingham UK. My primary skills reside in all things front-end, specifically <span>React</span>, <span>CSS</span>, <span>HTML</span> & <span>vanilla JavaScript</span>. I've also got experience using <span>C#</span>, <span>JSON</span>, <span>jQuery</span> and <span>Bootstrap</span>. My passion for coding comes from the desire to create UI's and UX's that capture the end-user's attention, while also being simple and intuitive. I first started coding in college during my spare time. However, I subsequently stopped to persue a BSc Mathematics degree and returned to coding again in 2020.</p>
         {/* </Animator> */}
       </div>
       
