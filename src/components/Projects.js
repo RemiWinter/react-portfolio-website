@@ -111,7 +111,7 @@ const Projects = ({projData}) => {
     <div className="projects-content">
       <h1 className="proj-h1" id='projects-scroll'>Projects</h1>
       <div className="grid grid-col-2">
-        <h1 className="projects-header">Projects</h1>
+        {/* <h1 className="projects-header">Projects</h1> */}
 
           <Project projData={projData}/>
 

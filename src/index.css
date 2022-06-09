@@ -532,6 +532,11 @@ span.animation {
   height: 100vh;
 }
 
+.about-me span {
+  font-weight: bold;
+  font-style: italic;
+}
+
 /* Projects */
 
 .projects-section {
