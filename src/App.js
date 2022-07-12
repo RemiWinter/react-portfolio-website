@@ -44,7 +44,7 @@ const [projData, setData] = useState([
     desc: 'Recreation of the Netflix landing page built from scratch',
     imgSrc: 'img/Netflix_img.png',
     vidSrc: 'videos/Netflix_vid.mov',
-    pageLink: '',
+    pageLink: '#',
     sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/NETFLIX-WEBPAGE-CLONE',
     id: 3
   },
