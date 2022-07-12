@@ -26,7 +26,7 @@ const [projData, setData] = useState([
     desc: 'Responsive gym landing page with sign up modal and form validation',
     imgSrc: 'img/gym_img.png',
     vidSrc: '/videos/RoF_vid.mp4',
-    pageLink: 'https://remwinter.github.io/RemWinter/GYM-WEBPAGE/',
+    pageLink: 'https://remiwinter.github.io/RemWinter/GYM-WEBPAGE/',
     sourceCode: 'https://github.com/RemWinter/RemWinter/tree/main/GYM-WEBPAGE',
     id: 1
   },
@@ -35,7 +35,7 @@ const [projData, setData] = useState([
     desc: 'Memory game built in React',
     imgSrc: 'img/game-preview.png',
     vidSrc: '',
-    pageLink: 'https://remwinter.github.io/memory-game/',
+    pageLink: 'https://remiwinter.github.io/memory-game/',
     sourceCode: 'https://github.com/RemWinter/memory-game',
     id: 2
   },
@@ -53,7 +53,7 @@ const [projData, setData] = useState([
     desc: 'Task tracker built in react',
     imgSrc: 'img/task-tracker.png',
     vidSrc: '',
-    pageLink: 'https://remwinter.github.io/react-task-tracker/',
+    pageLink: 'https://remiwinter.github.io/react-task-tracker/',
     sourceCode: 'https://github.com/RemWinter/react-task-tracker',
     id: 4
   },
@@ -62,7 +62,7 @@ const [projData, setData] = useState([
     desc: 'Form with full Validation built in react',
     imgSrc: 'img/react-form.png',
     vidSrc: '',
-    pageLink: 'https://remwinter.github.io/react-form/',
+    pageLink: 'https://remiwinter.github.io/react-form/',
     sourceCode: 'https://github.com/RemWinter/react-form',
     id: 5
   },
@@ -71,7 +71,7 @@ const [projData, setData] = useState([
     desc: 'Portfolio website converted to react from vanilla JS, CSS & HTML',
     imgSrc: 'img/portfolio.png',
     vidSrc: '',
-    pageLink: 'https://remwinter.github.io/react-portfolio-website/',
+    pageLink: 'https://remiwinter.github.io/react-portfolio-website/',
     sourceCode: 'https://github.com/RemWinter/react-portfolio-website',
     id: 6
   },
